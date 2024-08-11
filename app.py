@@ -5,13 +5,21 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\diabetes_model.sav', 'rb'))
+# diabetes_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\heart_disease_model.sav','rb'))
+# heart_disease_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\parkinsons_model.sav', 'rb'))
+# parkinsons_model = pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\parkinsons_model.sav', 'rb'))
 
-kidney_disease_model=pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\kidney.sav', 'rb'))
+# kidney_disease_model=pickle.load(open(r'C:\Users\ASUS\.vscode\major_project\kidney.sav', 'rb'))
+
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
+
+kidney_disease_model= pickle.load(open('kidney.sav', 'rb'))
 
 
 # sidebar for navigation

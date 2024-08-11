@@ -377,4 +377,4 @@ def set_bg_from_url(url, opacity=1):
     )
 
 # Set background image from URL
-set_bg_from_url("https://www.shutterstock.com/image-photo/businessman-touching-heart-shape-service-mind-2009732474", opacity=0.875)
+set_bg_from_url("https://www.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_6190059.htm#query=medical&position=0&from_view=keyword&track=ais_hybrid&uuid=423b1615-1ec2-4dd8-aff8-da6e4792ba28", opacity=0.875)
